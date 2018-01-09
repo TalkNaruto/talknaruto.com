@@ -1,0 +1,139 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black url(../assets/back.png) repeat;
+  font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  width: 878px;
+}
+
+/***** Header *****/
+
+header {
+  background-color: #85c5e1;
+}
+
+.banner-area {
+  min-height: 129px;
+}
+
+.banner {
+  display: block;
+}
+
+nav {
+  background-image: url(../assets/navbar.png);
+}
+
+nav ul {
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  height: 48px;
+  justify-content: center;
+  line-height: 43px;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li a {
+  background-image: url(../assets/navbutton.png);
+  color: white;
+  display: block;
+  padding: 0 0 5px;
+  text-decoration: none;
+  width: 102px;
+}
+
+nav li a:hover {
+  background-image: url(../assets/navbutton-hover.png);
+  color: #6a6a6a;
+}
+
+/***** Main Content *****/
+
+main {
+  flex-grow: 1;
+  padding: 15px 80px;
+}
+
+section header {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  background-image: url(../assets/maintitlemiddle.png);
+  box-sizing: border-box;
+  color: white;
+  flex: 1;
+  font: bold 13px Verdana, Geneva, Lucida, 'Lucida Grande', Arial, Helvetica, sans-serif;
+  height: 41px;
+  line-height: 41px;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background: url(../assets/alt-1.png) repeat-x #ededed;
+  border-bottom: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  color: #6b6b6b;
+  font-size: 13px;
+  padding: 6px 12px;
+}
+
+.content p {
+  margin: 6px 0;
+}
+
+/***** Footer *****/
+
+footer {
+  align-items: stretch;
+  background: url(../assets/footer.png) repeat-x #85c5e1;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  height: 87px;
+  line-height: 87px;
+  padding: 0 12px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-links {
+  flex: 1;
+  text-align: right;
+}
